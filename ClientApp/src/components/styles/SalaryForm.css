@@ -1,0 +1,21 @@
+.form-group .react-datepicker-wrapper {
+  display: block;
+}
+
+.dark-mode .card {
+  background-color: transparent;
+  border: 1px solid #dee2e6;
+}
+
+.dark-mode hr {
+  border-top: 1px solid #dee2e6;
+}
+
+.form-values-preview > .row > .col {
+  min-height: 24px;
+}
+
+.form-container {
+  max-height: calc(100vh - 102px);
+  overflow-y: auto;
+}

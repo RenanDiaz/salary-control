@@ -1,0 +1,10 @@
+.dark-mode .pagination > .page-item > .page-link {
+  color: white;
+  background-color: #343a40;
+}
+
+.dark-mode .pagination > .page-item.active > .page-link {
+  color: white;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
