@@ -38,7 +38,7 @@ export class Reports extends Component {
       <React.Fragment>
         <Row className="mt-1">
           <Col>
-            <h3>Descuentos recurrentes</h3>
+            <h3>Reportes</h3>
           </Col>
         </Row>
         <Row>
