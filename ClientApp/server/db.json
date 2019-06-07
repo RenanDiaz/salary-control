@@ -1,6 +1,5661 @@
 {
-  "monthlyPayments": [],
-  "recurrentDiscounts": [],
+  "monthlyPayments": [
+    {
+      "month": 7,
+      "year": 2014,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 80,
+          "basePayment": 350,
+          "totalHours": 80,
+          "grossPay": 350,
+          "totalDiscounts": 38.49,
+          "netPay": 311.51,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 80,
+          "basePayment": 350,
+          "totalHours": 80,
+          "grossPay": 350,
+          "totalDiscounts": 38.49,
+          "netPay": 311.51,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 1
+    },
+    {
+      "month": 8,
+      "year": 2014,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 80,
+          "basePayment": 350,
+          "totalHours": 80,
+          "grossPay": 350,
+          "totalDiscounts": 38.49,
+          "netPay": 311.51,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Décimo 8/2014",
+          "grossPay": 87.5,
+          "totalDiscounts": 6.34,
+          "netPay": 81.16,
+          "isSpecial": true,
+          "type": "decimo",
+          "discounts": [
+            {
+              "rate": 0.0725,
+              "description": "Seguro social"
+            }
+          ],
+          "previousPayments": [
+            {
+              "description": "Primera quincena 7/2014",
+              "amount": 350
+            },
+            {
+              "description": "Segunda quincena 7/2014",
+              "amount": 350
+            },
+            {
+              "description": "Primera quincena 8/2014",
+              "amount": 350
+            }
+          ],
+          "voucher": true,
+          "matches": false
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 80,
+          "basePayment": 350,
+          "totalHours": 80,
+          "grossPay": 350,
+          "totalDiscounts": 38.49,
+          "netPay": 311.51,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        }
+      ],
+      "id": 2
+    },
+    {
+      "month": 9,
+      "year": 2014,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 80,
+          "basePayment": 350,
+          "totalHours": 80,
+          "grossPay": 350,
+          "totalDiscounts": 38.49,
+          "netPay": 311.51,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 350,
+          "totalHours": 88,
+          "grossPay": 350,
+          "totalDiscounts": 38.49,
+          "netPay": 311.51,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        }
+      ],
+      "id": 3
+    },
+    {
+      "month": 10,
+      "year": 2014,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 350,
+          "totalHours": 88,
+          "grossPay": 350,
+          "totalDiscounts": 38.49,
+          "netPay": 311.51,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 350,
+          "totalHours": 87,
+          "grossPay": 346.02,
+          "totalDiscounts": 38.07,
+          "netPay": 307.95,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 87,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        }
+      ],
+      "id": 4
+    },
+    {
+      "month": 11,
+      "year": 2014,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 350,
+          "totalHours": 88,
+          "grossPay": 350,
+          "totalDiscounts": 38.49,
+          "netPay": 311.51,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 350,
+          "totalHours": 88,
+          "grossPay": 350,
+          "totalDiscounts": 38.49,
+          "netPay": 311.51,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        }
+      ],
+      "id": 5
+    },
+    {
+      "month": 12,
+      "year": 2014,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 350,
+          "totalHours": 88,
+          "grossPay": 350,
+          "totalDiscounts": 38.49,
+          "netPay": 311.51,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        },
+        {
+          "description": "Décimo 12/2014",
+          "grossPay": 233,
+          "totalDiscounts": 16.89,
+          "netPay": 216.11,
+          "isSpecial": true,
+          "type": "decimo",
+          "discounts": [
+            {
+              "rate": 0.0725,
+              "description": "Seguro social"
+            }
+          ],
+          "previousPayments": [
+            {
+              "description": "Segunda quincena 8/2014",
+              "amount": 350
+            },
+            {
+              "description": "Primera quincena 9/2014",
+              "amount": 350
+            },
+            {
+              "description": "Segunda quincena 9/2014",
+              "amount": 350
+            },
+            {
+              "description": "Primera quincena 10/2014",
+              "amount": 350
+            },
+            {
+              "description": "Segunda quincena 10/2014",
+              "amount": 346.02272727272725
+            },
+            {
+              "description": "Primera quincena 11/2014",
+              "amount": 350
+            },
+            {
+              "description": "Segunda quincena 11/2014",
+              "amount": 350
+            },
+            {
+              "description": "Primera quincena 12/2014",
+              "amount": 350
+            }
+          ],
+          "voucher": true,
+          "matches": false
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 350,
+          "totalHours": 80,
+          "grossPay": 318.18,
+          "totalDiscounts": 35,
+          "netPay": 283.18,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        }
+      ],
+      "id": 6
+    },
+    {
+      "month": 1,
+      "year": 2015,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 350,
+          "totalHours": 88,
+          "grossPay": 350,
+          "totalDiscounts": 38.49,
+          "netPay": 311.51,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 350,
+          "totalHours": 88,
+          "grossPay": 350,
+          "totalDiscounts": 38.49,
+          "netPay": 311.51,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        }
+      ],
+      "id": 7
+    },
+    {
+      "month": 2,
+      "year": 2015,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 350,
+          "totalHours": 88,
+          "grossPay": 350,
+          "totalDiscounts": 38.49,
+          "netPay": 311.51,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 350,
+          "totalHours": 88,
+          "grossPay": 350,
+          "totalDiscounts": 38.49,
+          "netPay": 311.51,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 8
+    },
+    {
+      "month": 3,
+      "year": 2015,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 350,
+          "totalHours": 88,
+          "grossPay": 350,
+          "totalDiscounts": 38.49,
+          "netPay": 311.51,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "voucher": false,
+          "matches": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 350,
+          "totalHours": 88,
+          "grossPay": 350,
+          "totalDiscounts": 38.49,
+          "netPay": 311.51,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        }
+      ],
+      "id": 9
+    },
+    {
+      "month": 4,
+      "year": 2015,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 400,
+          "totalHours": 88,
+          "grossPay": 400,
+          "totalDiscounts": 44,
+          "netPay": 356,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        },
+        {
+          "description": "Décimo 4/2015",
+          "grossPay": 234.85,
+          "totalDiscounts": 17.03,
+          "netPay": 217.82,
+          "isSpecial": true,
+          "type": "decimo",
+          "discounts": [
+            {
+              "rate": 0.0725,
+              "description": "Seguro social"
+            }
+          ],
+          "previousPayments": [
+            {
+              "description": "Segunda quincena 12/2014",
+              "amount": 318.18
+            },
+            {
+              "description": "Primera quincena 1/2015",
+              "amount": 350
+            },
+            {
+              "description": "Segunda quincena 1/2015",
+              "amount": 350
+            },
+            {
+              "description": "Primera quincena 2/2015",
+              "amount": 350
+            },
+            {
+              "description": "Segunda quincena 2/2015",
+              "amount": 350
+            },
+            {
+              "description": "Primera quincena 3/2015",
+              "amount": 350
+            },
+            {
+              "description": "Segunda quincena 3/2015",
+              "amount": 350
+            },
+            {
+              "description": "Primera quincena 4/2015",
+              "amount": 400
+            }
+          ],
+          "voucher": true,
+          "matches": false
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 400,
+          "totalHours": 88,
+          "grossPay": 400,
+          "totalDiscounts": 44,
+          "netPay": 356,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        }
+      ],
+      "id": 10
+    },
+    {
+      "month": 5,
+      "year": 2015,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 400,
+          "totalHours": 88,
+          "grossPay": 400,
+          "totalDiscounts": 44,
+          "netPay": 356,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 400,
+          "totalHours": 88,
+          "grossPay": 400,
+          "totalDiscounts": 44,
+          "netPay": 356,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Vacaciones 2015",
+          "grossPay": 714.93,
+          "totalDiscounts": 78.64999999999999,
+          "netPay": 636.28,
+          "isSpecial": true,
+          "type": "vacations",
+          "months": 11,
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "previousPayments": [
+            {
+              "description": "Primera quincena 7/2014",
+              "amount": 350
+            },
+            {
+              "description": "Segunda quincena 7/2014",
+              "amount": 350
+            },
+            {
+              "description": "Primera quincena 8/2014",
+              "amount": 350
+            },
+            {
+              "description": "Segunda quincena 8/2014",
+              "amount": 350
+            },
+            {
+              "description": "Primera quincena 9/2014",
+              "amount": 350
+            },
+            {
+              "description": "Segunda quincena 9/2014",
+              "amount": 350
+            },
+            {
+              "description": "Primera quincena 10/2014",
+              "amount": 350
+            },
+            {
+              "description": "Segunda quincena 10/2014",
+              "amount": 346.02
+            },
+            {
+              "description": "Primera quincena 11/2014",
+              "amount": 350
+            },
+            {
+              "description": "Segunda quincena 11/2014",
+              "amount": 350
+            },
+            {
+              "description": "Primera quincena 12/2014",
+              "amount": 350
+            },
+            {
+              "description": "Segunda quincena 12/2014",
+              "amount": 318.18
+            },
+            {
+              "description": "Primera quincena 1/2015",
+              "amount": 350
+            },
+            {
+              "description": "Segunda quincena 1/2015",
+              "amount": 350
+            },
+            {
+              "description": "Primera quincena 2/2015",
+              "amount": 350
+            },
+            {
+              "description": "Segunda quincena 2/2015",
+              "amount": 350
+            },
+            {
+              "description": "Primera quincena 3/2015",
+              "amount": 350
+            },
+            {
+              "description": "Segunda quincena 3/2015",
+              "amount": 350
+            },
+            {
+              "description": "Primera quincena 4/2015",
+              "amount": 400
+            },
+            {
+              "description": "Segunda quincena 4/2015",
+              "amount": 400
+            },
+            {
+              "description": "Primera quincena 5/2015",
+              "amount": 400
+            },
+            {
+              "description": "Segunda quincena 5/2015",
+              "amount": 400
+            }
+          ],
+          "matches": false,
+          "voucher": true
+        }
+      ],
+      "id": 11
+    },
+    {
+      "month": 6,
+      "year": 2015,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 400,
+          "totalHours": 88,
+          "grossPay": 400,
+          "totalDiscounts": 44,
+          "netPay": 356,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 400,
+          "totalHours": 88,
+          "grossPay": 400,
+          "totalDiscounts": 44,
+          "netPay": 356,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 12
+    },
+    {
+      "month": 7,
+      "year": 2015,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 400,
+          "totalHours": 80,
+          "grossPay": 363.64,
+          "totalDiscounts": 40,
+          "netPay": 323.64,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 400,
+          "totalHours": 88,
+          "grossPay": 400,
+          "totalDiscounts": 44,
+          "netPay": 356,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "matches": false,
+          "voucher": false
+        }
+      ],
+      "id": 13
+    },
+    {
+      "month": 8,
+      "year": 2015,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 400,
+          "totalHours": 88,
+          "grossPay": 400,
+          "totalDiscounts": 44,
+          "netPay": 356,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Décimo 8/2015",
+          "grossPay": 323.21,
+          "totalDiscounts": 23.43,
+          "netPay": 299.78,
+          "isSpecial": true,
+          "type": "decimo",
+          "months": 5,
+          "discounts": [
+            {
+              "rate": 0.0725,
+              "description": "Seguro social"
+            }
+          ],
+          "previousPayments": [
+            {
+              "description": "Segunda quincena 4/2015",
+              "amount": 400
+            },
+            {
+              "description": "Primera quincena 5/2015",
+              "amount": 400
+            },
+            {
+              "description": "Segunda quincena 5/2015",
+              "amount": 400
+            },
+            {
+              "description": "Vacaciones 2015 5/2015",
+              "amount": 714.93
+            },
+            {
+              "description": "Primera quincena 6/2015",
+              "amount": 400
+            },
+            {
+              "description": "Segunda quincena 6/2015",
+              "amount": 400
+            },
+            {
+              "description": "Primera quincena 7/2015",
+              "amount": 363.64
+            },
+            {
+              "description": "Segunda quincena 7/2015",
+              "amount": 400
+            },
+            {
+              "description": "Primera quincena 8/2015",
+              "amount": 400
+            }
+          ],
+          "matches": false,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 400,
+          "totalHours": 88,
+          "grossPay": 400,
+          "totalDiscounts": 44,
+          "netPay": 356,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 14
+    },
+    {
+      "month": 9,
+      "year": 2015,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 400,
+          "totalHours": 80,
+          "grossPay": 363.64,
+          "totalDiscounts": 40,
+          "netPay": 323.64,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 400,
+          "totalHours": 88,
+          "grossPay": 400,
+          "totalDiscounts": 44,
+          "netPay": 356,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 15
+    },
+    {
+      "month": 10,
+      "year": 2015,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 400,
+          "totalHours": 88,
+          "grossPay": 400,
+          "totalDiscounts": 44,
+          "netPay": 356,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 400,
+          "totalHours": 88,
+          "grossPay": 400,
+          "totalDiscounts": 44,
+          "netPay": 356,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "matches": true,
+          "voucher": false
+        }
+      ],
+      "id": 16
+    },
+    {
+      "month": 11,
+      "year": 2015,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 400,
+          "totalHours": 88,
+          "grossPay": 400,
+          "totalDiscounts": 44,
+          "netPay": 356,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 400,
+          "totalHours": 88,
+          "grossPay": 400,
+          "totalDiscounts": 44,
+          "netPay": 356,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 17
+    },
+    {
+      "month": 12,
+      "year": 2015,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 400,
+          "totalHours": 88,
+          "grossPay": 400,
+          "totalDiscounts": 44,
+          "netPay": 356,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Décimo 12/2015",
+          "grossPay": 263.64,
+          "totalDiscounts": 19.11,
+          "netPay": 244.52999999999997,
+          "isSpecial": true,
+          "type": "decimo",
+          "months": 5,
+          "discounts": [
+            {
+              "rate": 0.0725,
+              "description": "Seguro social"
+            }
+          ],
+          "previousPayments": [
+            {
+              "description": "Segunda quincena 8/2015",
+              "amount": 400
+            },
+            {
+              "description": "Primera quincena 9/2015",
+              "amount": 363.64
+            },
+            {
+              "description": "Segunda quincena 9/2015",
+              "amount": 400
+            },
+            {
+              "description": "Primera quincena 10/2015",
+              "amount": 400
+            },
+            {
+              "description": "Segunda quincena 10/2015",
+              "amount": 400
+            },
+            {
+              "description": "Primera quincena 11/2015",
+              "amount": 400
+            },
+            {
+              "description": "Segunda quincena 11/2015",
+              "amount": 400
+            },
+            {
+              "description": "Primera quincena 12/2015",
+              "amount": 400
+            }
+          ],
+          "matches": false,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 400,
+          "totalHours": 88,
+          "grossPay": 400,
+          "totalDiscounts": 44,
+          "netPay": 356,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 18
+    },
+    {
+      "month": 1,
+      "year": 2016,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 19
+    },
+    {
+      "month": 2,
+      "year": 2016,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 20
+    },
+    {
+      "month": 3,
+      "year": 2016,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 21
+    },
+    {
+      "month": 4,
+      "year": 2016,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Décimo 4/2016",
+          "grossPay": 303.12,
+          "totalDiscounts": 21.98,
+          "netPay": 281.14,
+          "isSpecial": true,
+          "type": "decimo",
+          "months": 5,
+          "discounts": [
+            {
+              "rate": 0.0725,
+              "description": "Seguro social"
+            }
+          ],
+          "previousPayments": [
+            {
+              "description": "Segunda quincena 12/2015",
+              "amount": 400
+            },
+            {
+              "description": "Primera quincena 1/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 1/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 2/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 2/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 3/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 3/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 4/2016",
+              "amount": 462.5
+            }
+          ],
+          "matches": false,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 22
+    },
+    {
+      "month": 5,
+      "year": 2016,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Vacaciones 2016",
+          "grossPay": 850.21,
+          "totalDiscounts": 105.37,
+          "netPay": 744.84,
+          "isSpecial": true,
+          "type": "vacations",
+          "months": 11,
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 11.84,
+              "description": "ISR"
+            }
+          ],
+          "previousPayments": [
+            {
+              "description": "Primera quincena 7/2015",
+              "amount": 363.64
+            },
+            {
+              "description": "Segunda quincena 7/2015",
+              "amount": 400
+            },
+            {
+              "description": "Primera quincena 8/2015",
+              "amount": 400
+            },
+            {
+              "description": "Segunda quincena 8/2015",
+              "amount": 400
+            },
+            {
+              "description": "Primera quincena 9/2015",
+              "amount": 363.64
+            },
+            {
+              "description": "Segunda quincena 9/2015",
+              "amount": 400
+            },
+            {
+              "description": "Primera quincena 10/2015",
+              "amount": 400
+            },
+            {
+              "description": "Segunda quincena 10/2015",
+              "amount": 400
+            },
+            {
+              "description": "Primera quincena 11/2015",
+              "amount": 400
+            },
+            {
+              "description": "Segunda quincena 11/2015",
+              "amount": 400
+            },
+            {
+              "description": "Primera quincena 12/2015",
+              "amount": 400
+            },
+            {
+              "description": "Segunda quincena 12/2015",
+              "amount": 400
+            },
+            {
+              "description": "Primera quincena 1/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 1/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 2/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 2/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 3/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 3/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 4/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 4/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 5/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 5/2016",
+              "amount": 462.5
+            }
+          ],
+          "matches": false,
+          "voucher": true
+        }
+      ],
+      "id": 23
+    },
+    {
+      "month": 6,
+      "year": 2016,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 24
+    },
+    {
+      "month": 7,
+      "year": 2016,
+      "payments": [
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 25
+    },
+    {
+      "month": 8,
+      "year": 2016,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Décimo 8/2016",
+          "grossPay": 340.64,
+          "totalDiscounts": 24.7,
+          "netPay": 315.94,
+          "isSpecial": true,
+          "type": "decimo",
+          "months": 5,
+          "discounts": [
+            {
+              "rate": 0.0725,
+              "description": "Seguro social"
+            }
+          ],
+          "previousPayments": [
+            {
+              "description": "Segunda quincena 4/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 5/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 5/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Vacaciones 2016 5/2016",
+              "amount": 850.21
+            },
+            {
+              "description": "Primera quincena 6/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 6/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 7/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 8/2016",
+              "amount": 462.5
+            }
+          ],
+          "matches": false,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 26
+    },
+    {
+      "month": 9,
+      "year": 2016,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 27
+    },
+    {
+      "month": 10,
+      "year": 2016,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 28
+    },
+    {
+      "month": 11,
+      "year": 2016,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 99,
+          "grossPay": 591.26,
+          "totalDiscounts": 70.96,
+          "netPay": 520.3,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            },
+            {
+              "description": "Extras de domingo",
+              "hours": 3,
+              "multiplier": 1.5
+            },
+            {
+              "description": "Extras de feriado",
+              "hours": 8,
+              "multiplier": 2.5
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": false,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 96,
+          "grossPay": 567.61,
+          "totalDiscounts": 68.36,
+          "netPay": 499.25,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            },
+            {
+              "description": "Extras de feriado",
+              "hours": 8,
+              "multiplier": 2.5
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 29
+    },
+    {
+      "month": 12,
+      "year": 2016,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 96,
+          "grossPay": 515.06,
+          "totalDiscounts": 62.58,
+          "netPay": 452.47999999999996,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            },
+            {
+              "description": "Extras regulares",
+              "hours": 8,
+              "multiplier": 1.25
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Décimo 12/2016",
+          "grossPay": 332.2,
+          "totalDiscounts": 24.08,
+          "netPay": 308.12,
+          "isSpecial": true,
+          "type": "decimo",
+          "months": 5,
+          "discounts": [
+            {
+              "rate": 0.0725,
+              "description": "Seguro social"
+            }
+          ],
+          "previousPayments": [
+            {
+              "description": "Segunda quincena 8/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 9/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 9/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 10/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 10/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 11/2016",
+              "amount": 591.26
+            },
+            {
+              "description": "Segunda quincena 11/2016",
+              "amount": 567.61
+            },
+            {
+              "description": "Primera quincena 12/2016",
+              "amount": 515.06
+            }
+          ],
+          "matches": false,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 30
+    },
+    {
+      "month": 1,
+      "year": 2017,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 113.17,
+          "netPay": 349.33,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            },
+            {
+              "description": "Excedente renta 2016",
+              "rate": 0,
+              "amount": 56.38
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 113.17,
+          "netPay": 349.33,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            },
+            {
+              "description": "Excedente renta 2016",
+              "rate": 0,
+              "amount": 56.38
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 31
+    },
+    {
+      "month": 2,
+      "year": 2017,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 32
+    },
+    {
+      "month": 3,
+      "year": 2017,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 33
+    },
+    {
+      "month": 4,
+      "year": 2017,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Décimo 4/2017",
+          "grossPay": 308.33,
+          "totalDiscounts": 22.35,
+          "netPay": 285.97999999999996,
+          "isSpecial": true,
+          "type": "decimo",
+          "months": 5,
+          "discounts": [
+            {
+              "rate": 0.0725,
+              "description": "Seguro social"
+            }
+          ],
+          "previousPayments": [
+            {
+              "description": "Segunda quincena 12/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 1/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 1/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 2/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 2/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 3/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 3/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 4/2017",
+              "amount": 462.5
+            }
+          ],
+          "matches": false,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 34
+    },
+    {
+      "month": 5,
+      "year": 2017,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 109,
+          "grossPay": 716.09,
+          "totalDiscounts": 84.69,
+          "netPay": 631.4000000000001,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            },
+            {
+              "description": "Extras regulares",
+              "hours": 4,
+              "multiplier": 1.25
+            },
+            {
+              "description": "Extras de sábado",
+              "hours": 6,
+              "multiplier": 2
+            },
+            {
+              "description": "Extras de domingo",
+              "hours": 6,
+              "multiplier": 3.125
+            },
+            {
+              "description": "Extras de feriado",
+              "hours": 5,
+              "multiplier": 2.5
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        },
+        {
+          "description": "Vacaciones 2017",
+          "grossPay": 932.05,
+          "totalDiscounts": 108.44000000000001,
+          "netPay": 823.6099999999999,
+          "isSpecial": true,
+          "type": "vacations",
+          "months": 11,
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "previousPayments": [
+            {
+              "description": "Segunda quincena 7/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 8/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 8/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 9/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 9/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 10/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 10/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 11/2016",
+              "amount": 591.26
+            },
+            {
+              "description": "Segunda quincena 11/2016",
+              "amount": 567.61
+            },
+            {
+              "description": "Primera quincena 12/2016",
+              "amount": 515.06
+            },
+            {
+              "description": "Segunda quincena 12/2016",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 1/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 1/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 2/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 2/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 3/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 3/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 4/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 4/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 5/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 5/2017",
+              "amount": 716.09
+            }
+          ],
+          "voucher": true,
+          "matches": false
+        }
+      ],
+      "id": 35
+    },
+    {
+      "month": 6,
+      "year": 2017,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        }
+      ],
+      "id": 36
+    },
+    {
+      "month": 7,
+      "year": 2017,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 37
+    },
+    {
+      "month": 8,
+      "year": 2017,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        },
+        {
+          "description": "Décimo 8/2017",
+          "grossPay": 368.59,
+          "totalDiscounts": 26.72,
+          "netPay": 341.87,
+          "isSpecial": true,
+          "type": "decimo",
+          "months": 5,
+          "discounts": [
+            {
+              "rate": 0.0725,
+              "description": "Seguro social"
+            }
+          ],
+          "previousPayments": [
+            {
+              "description": "Segunda quincena 4/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 5/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 5/2017",
+              "amount": 716.09
+            },
+            {
+              "description": "Vacaciones 2017 5/2017",
+              "amount": 932.05
+            },
+            {
+              "description": "Primera quincena 6/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 7/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 7/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 8/2017",
+              "amount": 462.5
+            }
+          ],
+          "matches": false,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 38
+    },
+    {
+      "month": 9,
+      "year": 2017,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 39
+    },
+    {
+      "month": 10,
+      "year": 2017,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 56.79,
+          "netPay": 405.71,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 40
+    },
+    {
+      "month": 11,
+      "year": 2017,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 96,
+          "grossPay": 567.61,
+          "totalDiscounts": 103.43,
+          "netPay": 464.18,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            },
+            {
+              "description": "Extras de feriado",
+              "hours": 8,
+              "multiplier": 2.5
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            },
+            {
+              "description": "Excedente renta 2017",
+              "rate": 0,
+              "amount": 35.07
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 97,
+          "grossPay": 521.63,
+          "totalDiscounts": 117.93,
+          "netPay": 403.7,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            },
+            {
+              "description": "Extras regulares",
+              "hours": 9,
+              "multiplier": 1.25
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            },
+            {
+              "description": "Excedente renta 2017",
+              "rate": 0,
+              "amount": 54.63
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 41
+    },
+    {
+      "month": 12,
+      "year": 2017,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 86.89,
+          "netPay": 375.61,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            },
+            {
+              "description": "Excedente renta 2017",
+              "rate": 0,
+              "amount": 30.1
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Décimo 12/2017",
+          "grossPay": 322.02,
+          "totalDiscounts": 23.35,
+          "netPay": 298.66999999999996,
+          "isSpecial": true,
+          "type": "decimo",
+          "months": 5,
+          "discounts": [
+            {
+              "rate": 0.0725,
+              "description": "Seguro social"
+            }
+          ],
+          "previousPayments": [
+            {
+              "description": "Segunda quincena 8/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 9/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 9/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 10/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 10/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 11/2017",
+              "amount": 567.61
+            },
+            {
+              "description": "Segunda quincena 11/2017",
+              "amount": 521.63
+            },
+            {
+              "description": "Primera quincena 12/2017",
+              "amount": 462.5
+            }
+          ],
+          "matches": false,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 462.5,
+          "totalHours": 88,
+          "grossPay": 462.5,
+          "totalDiscounts": 86.89,
+          "netPay": 375.61,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 5.92,
+              "description": "ISR"
+            },
+            {
+              "description": "Excedente renta 2017",
+              "rate": 0,
+              "amount": 30.1
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 42
+    },
+    {
+      "month": 1,
+      "year": 2018,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 487.5,
+          "totalHours": 96,
+          "grossPay": 598.3,
+          "totalDiscounts": 75.47,
+          "netPay": 522.8299999999999,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            },
+            {
+              "description": "Extras de feriado",
+              "hours": 8,
+              "multiplier": 2.5
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 9.66,
+              "description": "ISR"
+            }
+          ],
+          "voucher": true,
+          "matches": false
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 487.5,
+          "totalHours": 89,
+          "grossPay": 494.42,
+          "totalDiscounts": 64.05,
+          "netPay": 430.37,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            },
+            {
+              "description": "Extras regulares",
+              "hours": 1,
+              "multiplier": 1.25
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 9.66,
+              "description": "ISR"
+            }
+          ],
+          "matches": false,
+          "voucher": false
+        }
+      ],
+      "id": 43
+    },
+    {
+      "month": 2,
+      "year": 2018,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 487.5,
+          "totalHours": 88,
+          "grossPay": 487.5,
+          "totalDiscounts": 63.28,
+          "netPay": 424.22,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 9.66,
+              "description": "ISR"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 487.5,
+          "totalHours": 88,
+          "grossPay": 487.5,
+          "totalDiscounts": 63.28,
+          "netPay": 424.22,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 9.66,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 44
+    },
+    {
+      "month": 3,
+      "year": 2018,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 487.5,
+          "totalHours": 88,
+          "grossPay": 487.5,
+          "totalDiscounts": 138.28,
+          "netPay": 349.22,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 9.66,
+              "description": "ISR"
+            },
+            {
+              "amount": 75,
+              "description": "Préstamo"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 487.5,
+          "totalHours": 88,
+          "grossPay": 487.5,
+          "totalDiscounts": 138.74,
+          "netPay": 348.76,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 9.66,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.46,
+              "description": "Préstamo"
+            }
+          ],
+          "voucher": false,
+          "matches": true
+        }
+      ],
+      "id": 45
+    },
+    {
+      "month": 4,
+      "year": 2018,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 487.5,
+          "totalHours": 88,
+          "grossPay": 487.5,
+          "totalDiscounts": 138.51,
+          "netPay": 348.99,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 9.66,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Décimo 4/2018",
+          "grossPay": 332.73,
+          "totalDiscounts": 24.12,
+          "netPay": 308.61,
+          "isSpecial": true,
+          "type": "decimo",
+          "months": 5,
+          "discounts": [
+            {
+              "rate": 0.0725,
+              "description": "Seguro social"
+            }
+          ],
+          "previousPayments": [
+            {
+              "description": "Segunda quincena 12/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 1/2018",
+              "amount": 598.3
+            },
+            {
+              "description": "Segunda quincena 1/2018",
+              "amount": 494.42
+            },
+            {
+              "description": "Primera quincena 2/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Segunda quincena 2/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Primera quincena 3/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Segunda quincena 3/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Primera quincena 4/2018",
+              "amount": 487.5
+            }
+          ],
+          "matches": false,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 487.5,
+          "totalHours": 88,
+          "grossPay": 487.5,
+          "totalDiscounts": 138.51,
+          "netPay": 348.99,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 9.66,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 46
+    },
+    {
+      "month": 5,
+      "year": 2018,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 487.5,
+          "totalHours": 88,
+          "grossPay": 487.5,
+          "totalDiscounts": 138.51,
+          "netPay": 348.99,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 9.66,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 487.5,
+          "totalHours": 88,
+          "grossPay": 487.5,
+          "totalDiscounts": 138.51,
+          "netPay": 348.99,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 9.66,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "voucher": true,
+          "matches": false
+        },
+        {
+          "description": "Vacaciones 2018",
+          "grossPay": 973.36,
+          "totalDiscounts": 116.73,
+          "netPay": 856.63,
+          "isSpecial": true,
+          "type": "vacations",
+          "months": 11,
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 9.66,
+              "description": "ISR"
+            }
+          ],
+          "previousPayments": [
+            {
+              "description": "Primera quincena 7/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 7/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 8/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 8/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 9/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 9/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 10/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 10/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 11/2017",
+              "amount": 567.61
+            },
+            {
+              "description": "Segunda quincena 11/2017",
+              "amount": 521.63
+            },
+            {
+              "description": "Primera quincena 12/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Segunda quincena 12/2017",
+              "amount": 462.5
+            },
+            {
+              "description": "Primera quincena 1/2018",
+              "amount": 598.3
+            },
+            {
+              "description": "Segunda quincena 1/2018",
+              "amount": 494.42
+            },
+            {
+              "description": "Primera quincena 2/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Segunda quincena 2/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Primera quincena 3/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Segunda quincena 3/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Primera quincena 4/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Segunda quincena 4/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Primera quincena 5/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Segunda quincena 5/2018",
+              "amount": 487.5
+            }
+          ],
+          "matches": false,
+          "voucher": true
+        }
+      ],
+      "id": 47
+    },
+    {
+      "month": 6,
+      "year": 2018,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 487.5,
+          "totalHours": 96,
+          "grossPay": 542.9,
+          "totalDiscounts": 145.57,
+          "netPay": 397.33,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            },
+            {
+              "description": "Extras regulares",
+              "hours": 8,
+              "multiplier": 1.25
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 10.62,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 88,
+          "basePayment": 487.5,
+          "totalHours": 104,
+          "grossPay": 598.3,
+          "totalDiscounts": 152.94,
+          "netPay": 445.35999999999996,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            },
+            {
+              "description": "Extras regulares",
+              "hours": 16,
+              "multiplier": 1.25
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 11.9,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Bono 6/2018",
+          "grossPay": 500,
+          "totalDiscounts": 0,
+          "netPay": 500,
+          "isSpecial": true,
+          "type": "bonus",
+          "months": 0,
+          "discounts": [],
+          "previousPayments": [
+            {
+              "amount": 500,
+              "description": "Bono"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        }
+      ],
+      "id": 48
+    },
+    {
+      "month": 7,
+      "year": 2018,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 88,
+          "basePayment": 487.5,
+          "totalHours": 88,
+          "grossPay": 487.5,
+          "totalDiscounts": 140.75,
+          "netPay": 346.75,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 88,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 11.9,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 80,
+          "basePayment": 487.5,
+          "totalHours": 80,
+          "grossPay": 487.5,
+          "totalDiscounts": 140.75,
+          "netPay": 346.75,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 11.9,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "matches": false,
+          "voucher": true
+        }
+      ],
+      "id": 49
+    },
+    {
+      "month": 8,
+      "year": 2018,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 80,
+          "basePayment": 487.5,
+          "totalHours": 94,
+          "grossPay": 594.14,
+          "totalDiscounts": 152.49,
+          "netPay": 441.65,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            },
+            {
+              "description": "Extras regulares",
+              "hours": 14,
+              "multiplier": 1.25
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 11.9,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        },
+        {
+          "description": "Décimo 8/2018",
+          "grossPay": 428.85,
+          "totalDiscounts": 31.09,
+          "netPay": 397.76000000000005,
+          "isSpecial": true,
+          "type": "decimo",
+          "months": 5,
+          "discounts": [
+            {
+              "rate": 0.0725,
+              "description": "Seguro social"
+            }
+          ],
+          "previousPayments": [
+            {
+              "description": "Segunda quincena 4/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Primera quincena 5/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Segunda quincena 5/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Vacaciones 2018 5/2018",
+              "amount": 973.36
+            },
+            {
+              "description": "Primera quincena 6/2018",
+              "amount": 542.9
+            },
+            {
+              "description": "Segunda quincena 6/2018",
+              "amount": 598.3
+            },
+            {
+              "description": "Primera quincena 7/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Segunda quincena 7/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Primera quincena 8/2018",
+              "amount": 594.14
+            }
+          ],
+          "voucher": true,
+          "matches": false
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 80,
+          "basePayment": 487.5,
+          "totalHours": 100,
+          "grossPay": 639.84,
+          "totalDiscounts": 156.77,
+          "netPay": 483.07000000000005,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            },
+            {
+              "description": "Extras regulares",
+              "hours": 20,
+              "multiplier": 1.25
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 11.16,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 50
+    },
+    {
+      "month": 9,
+      "year": 2018,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 80,
+          "basePayment": 487.5,
+          "totalHours": 80,
+          "grossPay": 487.5,
+          "totalDiscounts": 138.51,
+          "netPay": 348.99,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 9.66,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 80,
+          "basePayment": 487.5,
+          "totalHours": 122,
+          "grossPay": 807.42,
+          "totalDiscounts": 178.68,
+          "netPay": 628.74,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            },
+            {
+              "description": "Extras regulares",
+              "hours": 42,
+              "multiplier": 1.25
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 14.64,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 51
+    },
+    {
+      "month": 10,
+      "year": 2018,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 80,
+          "basePayment": 487.5,
+          "totalHours": 80,
+          "grossPay": 487.5,
+          "totalDiscounts": 143.49,
+          "netPay": 344.01,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 14.64,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 80,
+          "basePayment": 487.5,
+          "totalHours": 80,
+          "grossPay": 487.5,
+          "totalDiscounts": 138.51,
+          "netPay": 348.99,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 9.66,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        }
+      ],
+      "id": 52
+    },
+    {
+      "month": 11,
+      "year": 2018,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 80,
+          "basePayment": 487.5,
+          "totalHours": 80,
+          "grossPay": 487.5,
+          "totalDiscounts": 138.51,
+          "netPay": 348.99,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 9.66,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 80,
+          "basePayment": 487.5,
+          "totalHours": 109,
+          "grossPay": 784.57,
+          "totalDiscounts": 182.15,
+          "netPay": 602.4200000000001,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            },
+            {
+              "description": "Extras regulares",
+              "hours": 19,
+              "multiplier": 1.25
+            },
+            {
+              "description": "Extras de feriado",
+              "hours": 10,
+              "multiplier": 2.5
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 20.61,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 53
+    },
+    {
+      "month": 12,
+      "year": 2018,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 80,
+          "basePayment": 487.5,
+          "totalHours": 94,
+          "grossPay": 594.14,
+          "totalDiscounts": 85.97,
+          "netPay": 508.16999999999996,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            },
+            {
+              "description": "Extras regulares",
+              "hours": 14,
+              "multiplier": 1.25
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 20.61,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Décimo 12/2018",
+          "grossPay": 398,
+          "totalDiscounts": 28.85,
+          "netPay": 369.15,
+          "isSpecial": true,
+          "type": "decimo",
+          "months": 5,
+          "discounts": [
+            {
+              "rate": 0.0725,
+              "description": "Seguro social"
+            }
+          ],
+          "previousPayments": [
+            {
+              "description": "Segunda quincena 8/2018",
+              "amount": 639.84
+            },
+            {
+              "description": "Primera quincena 9/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Segunda quincena 9/2018",
+              "amount": 807.4200000000001
+            },
+            {
+              "description": "Primera quincena 10/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Segunda quincena 10/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Primera quincena 11/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Segunda quincena 11/2018",
+              "amount": 784.57
+            },
+            {
+              "description": "Primera quincena 12/2018",
+              "amount": 594.14
+            }
+          ],
+          "matches": false,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 80,
+          "basePayment": 487.5,
+          "totalHours": 80,
+          "grossPay": 487.5,
+          "totalDiscounts": 63.28,
+          "netPay": 424.22,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 9.66,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 54
+    },
+    {
+      "month": 1,
+      "year": 2019,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 80,
+          "basePayment": 512.5,
+          "totalHours": 92,
+          "grossPay": 648.63,
+          "totalDiscounts": 159.99,
+          "netPay": 488.64,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            },
+            {
+              "description": "Extras regulares",
+              "hours": 3,
+              "multiplier": 1.25
+            },
+            {
+              "description": "Extras de domingo",
+              "hours": 5,
+              "multiplier": 1.5
+            },
+            {
+              "description": "Extras de feriado",
+              "hours": 4,
+              "multiplier": 2.5
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 13.41,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "voucher": true,
+          "matches": false
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 80,
+          "basePayment": 512.5,
+          "totalHours": 90.5,
+          "grossPay": 594.98,
+          "totalDiscounts": 154.09,
+          "netPay": 440.89,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            },
+            {
+              "description": "Extras regulares",
+              "hours": 10,
+              "multiplier": 1.25
+            },
+            {
+              "description": "R/S Tiempo",
+              "hours": 0.5,
+              "multiplier": 0.75
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 13.41,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "voucher": true,
+          "matches": false
+        }
+      ],
+      "id": 55
+    },
+    {
+      "month": 2,
+      "year": 2019,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 80,
+          "basePayment": 512.5,
+          "totalHours": 110,
+          "grossPay": 752.73,
+          "totalDiscounts": 171.44,
+          "netPay": 581.29,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            },
+            {
+              "description": "Extras regulares",
+              "hours": 30,
+              "multiplier": 1.25
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 13.41,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 80,
+          "basePayment": 512.5,
+          "totalHours": 105,
+          "grossPay": 712.7,
+          "totalDiscounts": 167.04,
+          "netPay": 545.6600000000001,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            },
+            {
+              "description": "Extras regulares",
+              "hours": 25,
+              "multiplier": 1.25
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 13.41,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        }
+      ],
+      "id": 56
+    },
+    {
+      "month": 3,
+      "year": 2019,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 80,
+          "basePayment": 512.5,
+          "totalHours": 96,
+          "grossPay": 672.65,
+          "totalDiscounts": 162.63,
+          "netPay": 510.02,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            },
+            {
+              "description": "Extras regulares",
+              "hours": 12,
+              "multiplier": 1.25
+            },
+            {
+              "description": "Extras de feriado",
+              "hours": 4,
+              "multiplier": 2.5
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 13.41,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 80,
+          "basePayment": 512.5,
+          "totalHours": 97,
+          "grossPay": 648.63,
+          "totalDiscounts": 159.99,
+          "netPay": 488.64,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            },
+            {
+              "description": "Extras regulares",
+              "hours": 17,
+              "multiplier": 1.25
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 13.41,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        }
+      ],
+      "id": 57
+    },
+    {
+      "month": 4,
+      "year": 2019,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 80,
+          "basePayment": 512.5,
+          "totalHours": 90,
+          "grossPay": 592.58,
+          "totalDiscounts": 150.74,
+          "netPay": 441.84000000000003,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            },
+            {
+              "description": "Extras regulares",
+              "hours": 10,
+              "multiplier": 1.25
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 10.32,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Décimo 4/2019",
+          "grossPay": 425.67,
+          "totalDiscounts": 30.86,
+          "netPay": 394.81,
+          "isSpecial": true,
+          "type": "decimo",
+          "months": 5,
+          "discounts": [
+            {
+              "rate": 0.0725,
+              "description": "Seguro social"
+            }
+          ],
+          "previousPayments": [
+            {
+              "description": "Segunda quincena 12/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Primera quincena 1/2019",
+              "amount": 648.6299999999999
+            },
+            {
+              "description": "Segunda quincena 1/2019",
+              "amount": 592.58
+            },
+            {
+              "description": "Primera quincena 2/2019",
+              "amount": 752.73
+            },
+            {
+              "description": "Segunda quincena 2/2019",
+              "amount": 712.7
+            },
+            {
+              "description": "Primera quincena 3/2019",
+              "amount": 672.6500000000001
+            },
+            {
+              "description": "Segunda quincena 3/2019",
+              "amount": 648.63
+            },
+            {
+              "description": "Primera quincena 4/2019",
+              "amount": 592.58
+            }
+          ],
+          "voucher": true,
+          "matches": false
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 80,
+          "basePayment": 512.5,
+          "totalHours": 82,
+          "grossPay": 528.52,
+          "totalDiscounts": 146.78,
+          "netPay": 381.74,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            },
+            {
+              "description": "Horas regulares",
+              "hours": 2,
+              "multiplier": 1.25
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 13.41,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        }
+      ],
+      "id": 58
+    },
+    {
+      "month": 5,
+      "year": 2019,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 80,
+          "basePayment": 512.5,
+          "totalHours": 84,
+          "grossPay": 544.53,
+          "totalDiscounts": 148.54,
+          "netPay": 395.99,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            },
+            {
+              "description": "Extras regulares",
+              "hours": 4,
+              "multiplier": 1.25
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 13.41,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "voucher": true,
+          "matches": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 80,
+          "basePayment": 512.5,
+          "totalHours": 87,
+          "grossPay": 568.55,
+          "totalDiscounts": 151.18,
+          "netPay": 417.36999999999995,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            },
+            {
+              "description": "Extras regulares",
+              "hours": 7,
+              "multiplier": 1.25
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 13.41,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 59
+    }
+  ],
+  "recurrentDiscounts": [
+    {
+      "id": 0,
+      "rate": 0.0975,
+      "description": "Seguro social",
+      "isActive": true
+    },
+    {
+      "id": 1,
+      "rate": 0.0125,
+      "description": "Seguro educativo",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "amount": 13.41,
+      "description": "ISR",
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "amount": 75.23,
+      "description": "Préstamo",
+      "isActive": true
+    }
+  ],
   "configuration": {
     "darkMode": false
   }
