@@ -92,7 +92,7 @@ export class SalaryDiscounts extends Component {
             <h3>Descuentos recurrentes</h3>
           </Col>
           <Col xs="auto">
-            <Button tag={Link} to="/new-discount">
+            <Button tag={Link} to="/new/discount">
               Agregar
             </Button>
           </Col>

@@ -2,23 +2,11 @@ import React, { Component } from 'react';
 import { MonthlyPayments } from '../components/MonthlyPayments';
 import PageLoading from '../components/PageLoading';
 import PageError from '../components/PageError';
-import {
-  Row,
-  Col,
-  Button,
-  Dropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  Pagination,
-  PaginationItem,
-  PaginationLink
-} from 'reactstrap';
-import { Link } from 'react-router-dom';
+import { Row, Col, Pagination, PaginationItem, PaginationLink } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import api from '../api';
 
-export class SalaryControl extends Component {
+export class Home extends Component {
   constructor(props) {
     super(props);
 
@@ -122,35 +110,6 @@ export class SalaryControl extends Component {
         <Row className="justify-content-end mt-1">
           <Col>
             <h3>Resumen de pagos</h3>
-          </Col>
-          <Col xs="auto">
-            <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle} group>
-              <Button tag={Link} to="/new">
-                Agregar
-              </Button>
-              <DropdownToggle caret className="dropdown-toggle-split" />
-              <DropdownMenu right>
-                <DropdownItem tag={Link} to="/new">
-                  Agregar pago
-                </DropdownItem>
-                <DropdownItem tag={Link} to="/new-special">
-                  Agregar pago especial
-                </DropdownItem>
-                <DropdownItem tag={Link} to="/new-discount">
-                  Agregar descuento recurrente
-                </DropdownItem>
-              </DropdownMenu>
-            </Dropdown>
-          </Col>
-          <Col xs="auto">
-            <Button tag={Link} to="/discounts">
-              <FontAwesomeIcon icon="cog" />
-            </Button>
-          </Col>
-          <Col xs="auto">
-            <Button tag={Link} to="/reports">
-              <FontAwesomeIcon icon="clipboard-list" />
-            </Button>
           </Col>
         </Row>
         <MonthlyPayments
