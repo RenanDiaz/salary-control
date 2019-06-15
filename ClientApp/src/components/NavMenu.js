@@ -8,7 +8,11 @@ import {
   NavbarToggler,
   NavItem,
   NavLink,
-  Button
+  Button,
+  Dropdown,
+  DropdownMenu,
+  DropdownItem,
+  DropdownToggle
 } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -22,13 +26,26 @@ export class NavMenu extends Component {
     super(props);
 
     this.state = {
-      collapsed: true
+      collapsed: true,
+      addDropdownIsOpen: false
     };
   }
 
   toggleNavbar = () => {
     this.setState({
       collapsed: !this.state.collapsed
+    });
+  };
+
+  forceCollapseNavbar = () => {
+    this.setState({
+      collapsed: true
+    });
+  };
+
+  toggleProductsDropdown = () => {
+    this.setState({
+      addDropdownIsOpen: !this.state.addDropdownIsOpen
     });
   };
 
@@ -65,8 +82,60 @@ export class NavMenu extends Component {
             >
               <Nav className="navbar-nav flex-grow" navbar>
                 <NavItem>
-                  <NavLink tag={Link} to="/" active={window.location.pathname === '/'}>
+                  <NavLink
+                    tag={Link}
+                    to="/"
+                    active={window.location.pathname === '/'}
+                    onClick={this.forceCollapseNavbar}
+                  >
                     Home
+                  </NavLink>
+                </NavItem>
+                <Dropdown
+                  nav
+                  isOpen={this.state.addDropdownIsOpen}
+                  toggle={this.toggleProductsDropdown}
+                  group
+                >
+                  <NavLink
+                    tag={Link}
+                    to="/new"
+                    active={window.location.pathname.includes('/new')}
+                    onClick={this.forceCollapseNavbar}
+                  >
+                    Agregar
+                  </NavLink>
+                  <DropdownToggle nav caret className="dropdown-toggle-split" />
+                  <DropdownMenu right>
+                    <DropdownItem tag={Link} to="/new" onClick={this.forceCollapseNavbar}>
+                      Agregar pago
+                    </DropdownItem>
+                    <DropdownItem tag={Link} to="/new/special" onClick={this.forceCollapseNavbar}>
+                      Agregar pago especial
+                    </DropdownItem>
+                    <DropdownItem tag={Link} to="/new/discount" onClick={this.forceCollapseNavbar}>
+                      Agregar descuento recurrente
+                    </DropdownItem>
+                  </DropdownMenu>
+                </Dropdown>
+                <NavItem>
+                  <NavLink
+                    tag={Link}
+                    to="/discounts"
+                    active={window.location.pathname.includes('/discounts')}
+                    onClick={this.forceCollapseNavbar}
+                  >
+                    Descuentos
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    tag={Link}
+                    to="/reports"
+                    active={window.location.pathname.includes('/reports')}
+                    onClick={this.forceCollapseNavbar}
+                  >
+                    Reportes
                   </NavLink>
                 </NavItem>
                 <NavItem>
