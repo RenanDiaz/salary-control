@@ -22,7 +22,7 @@ const api = {
     list(page) {
       if (page) {
         let limit = 12;
-        return callApi(`/monthlyPayments?_page=${page}&_limit=${limit}`);
+        return callApi(`/monthlyPayments?_page=${page}&_limit=${limit}&_sort=id&_order=desc`);
       }
       return callApi('/monthlyPayments');
     },
