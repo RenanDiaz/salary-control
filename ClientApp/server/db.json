@@ -5625,9 +5625,168 @@
           ],
           "matches": true,
           "voucher": true
+        },
+        {
+          "description": "Vacaciones 2019",
+          "grossPay": 1190.65,
+          "totalDiscounts": 144.38,
+          "netPay": 1046.27,
+          "isSpecial": true,
+          "type": "vacations",
+          "months": 11,
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 13.41,
+              "description": "ISR"
+            }
+          ],
+          "previousPayments": [
+            {
+              "description": "Primera quincena 7/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Segunda quincena 7/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Primera quincena 8/2018",
+              "amount": 594.14
+            },
+            {
+              "description": "Segunda quincena 8/2018",
+              "amount": 639.84
+            },
+            {
+              "description": "Primera quincena 9/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Segunda quincena 9/2018",
+              "amount": 807.42
+            },
+            {
+              "description": "Primera quincena 10/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Segunda quincena 10/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Primera quincena 11/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Segunda quincena 11/2018",
+              "amount": 784.57
+            },
+            {
+              "description": "Primera quincena 12/2018",
+              "amount": 594.14
+            },
+            {
+              "description": "Segunda quincena 12/2018",
+              "amount": 487.5
+            },
+            {
+              "description": "Primera quincena 1/2019",
+              "amount": 648.63
+            },
+            {
+              "description": "Segunda quincena 1/2019",
+              "amount": 594.98
+            },
+            {
+              "description": "Primera quincena 2/2019",
+              "amount": 752.73
+            },
+            {
+              "description": "Segunda quincena 2/2019",
+              "amount": 712.7
+            },
+            {
+              "description": "Primera quincena 3/2019",
+              "amount": 672.65
+            },
+            {
+              "description": "Segunda quincena 3/2019",
+              "amount": 648.63
+            },
+            {
+              "description": "Primera quincena 4/2019",
+              "amount": 592.58
+            },
+            {
+              "description": "Segunda quincena 4/2019",
+              "amount": 528.52
+            },
+            {
+              "description": "Primera quincena 5/2019",
+              "amount": 544.53
+            },
+            {
+              "description": "Segunda quincena 5/2019",
+              "amount": 568.55
+            }
+          ],
+          "matches": false,
+          "voucher": false
         }
       ],
       "id": 59
+    },
+    {
+      "month": 6,
+      "year": 2019,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 80,
+          "basePayment": 562.5,
+          "totalHours": 80,
+          "grossPay": 562.5,
+          "totalDiscounts": 158.02,
+          "netPay": 404.48,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 20.92,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 60
     }
   ],
   "recurrentDiscounts": [
