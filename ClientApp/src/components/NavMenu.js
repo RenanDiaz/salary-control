@@ -113,7 +113,7 @@ export class NavMenu extends Component {
                     <DropdownItem tag={Link} to="/new/special" onClick={this.forceCollapseNavbar}>
                       Agregar pago especial
                     </DropdownItem>
-                    <DropdownItem tag={Link} to="/new/discount" onClick={this.forceCollapseNavbar}>
+                    <DropdownItem tag={Link} to="/discounts/new" onClick={this.forceCollapseNavbar}>
                       Agregar descuento recurrente
                     </DropdownItem>
                   </DropdownMenu>

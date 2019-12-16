@@ -6,7 +6,9 @@ import { SalaryDetail } from './pages/SalaryDetail';
 import { SalaryNew } from './pages/SalaryNew';
 import { SalaryNewSpecial } from './pages/SalaryNewSpecial';
 import { SalaryDiscounts } from './pages/SalaryDiscounts';
-import { SalaryNewDiscount } from './pages/SalaryNewDiscount';
+import { Discount } from './pages/Discount';
+import { DiscountNew } from './pages/DiscountNew';
+import { DiscountEdit } from './pages/DiscountEdit';
 import { SalaryEdit } from './pages/SalaryEdit';
 import { SalaryEditSpecial } from './pages/SalaryEditSpecial';
 import { Reports } from './pages/Reports';
@@ -42,7 +44,9 @@ export default class App extends Component {
         <Route exact path="/new/special" component={SalaryNewSpecial} />
         <Route exact path="/discounts" component={SalaryDiscounts} />
         <Route exact path="/reports" component={Reports} />
-        <Route exact path="/new/discount" component={SalaryNewDiscount} />
+        <Route exact path="/discounts/:id" component={Discount} />
+        <Route exact path="/discounts/new" component={DiscountNew} />
+        <Route exact path="/discounts/:id/edit" component={DiscountEdit} />
         <Route exact path="/payments/:id" component={SalaryDetail} />
         <Route exact path="/payments/:id/edit/:index" component={SalaryEdit} />
         <Route exact path="/payments/:id/edit-special/:index" component={SalaryEditSpecial} />

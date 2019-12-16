@@ -5,7 +5,7 @@ import PageLoading from '../components/PageLoading';
 import { SalaryFormPreview } from '../components/SalaryFormPreview';
 import api from '../api';
 
-export class SalaryNewDiscount extends Component {
+export class DiscountEdit extends Component {
   constructor(props) {
     super(props);
 
@@ -20,6 +20,21 @@ export class SalaryNewDiscount extends Component {
       }
     };
   }
+
+  componentDidMount() {
+    this.fetchData();
+  }
+
+  fetchData = async () => {
+    this.setState({ loading: true, error: null });
+    try {
+      const data = await api.recurrentDiscounts.read(this.props.match.params.id);
+      const form = data;
+      this.setState({ loading: false, data, form });
+    } catch (error) {
+      this.setState({ loading: false, error });
+    }
+  };
 
   handleChange = e => {
     this.setState({
@@ -37,7 +52,7 @@ export class SalaryNewDiscount extends Component {
     if (form.amount === 0) delete form.amount;
     if (form.rate === 0) delete form.rate;
     try {
-      await api.recurrentDiscounts.create(form);
+      await api.recurrentDiscounts.update(form.id, form);
       this.setState({ loading: false, error: null });
       this.props.history.push('/discounts');
     } catch (error) {

@@ -76,6 +76,10 @@ export class SalaryDiscounts extends Component {
     }
   };
 
+  handleViewDiscount = id => {
+    this.props.history.push(`/discounts/${id}`);
+  };
+
   render() {
     if (this.state.loading && !this.state.data) {
       return <PageLoading />;
@@ -92,7 +96,7 @@ export class SalaryDiscounts extends Component {
             <h3>Descuentos recurrentes</h3>
           </Col>
           <Col xs="auto">
-            <Button tag={Link} to="/new/discount">
+            <Button tag={Link} to="/discounts/new">
               Agregar
             </Button>
           </Col>
@@ -102,6 +106,7 @@ export class SalaryDiscounts extends Component {
           onActiveChange={this.handleActiveChange}
           onSelectItem={this.handleSelectItem}
           onToggleModal={this.handleToggleModal}
+          onViewDiscount={this.handleViewDiscount}
         />
         <DeleteDiscountModal
           onToggleModal={this.handleToggleModal}
