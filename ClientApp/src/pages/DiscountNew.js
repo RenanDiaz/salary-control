@@ -5,7 +5,7 @@ import PageLoading from '../components/PageLoading';
 import { SalaryFormPreview } from '../components/SalaryFormPreview';
 import api from '../api';
 
-export class SalaryNewDiscount extends Component {
+export class DiscountNew extends Component {
   constructor(props) {
     super(props);
 
@@ -25,7 +25,7 @@ export class SalaryNewDiscount extends Component {
     this.setState({
       form: {
         ...this.state.form,
-        [e.target.name]: e.target.value
+        [e.target.name]: e.target.type === 'number' ? Number(e.target.value) : e.target.value
       }
     });
   };

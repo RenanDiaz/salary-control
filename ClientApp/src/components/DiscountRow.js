@@ -3,7 +3,7 @@ import { Input, Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import NumberFormat from 'react-number-format';
 
-export class Discount extends Component {
+export class DiscountRow extends Component {
   handleActiveChange = e => {
     this.props.onActiveChange(this.props.discount.id);
   };
@@ -16,11 +16,19 @@ export class Discount extends Component {
     this.props.onSelectItem(this.props.discount.id);
   };
 
+  handleViewDiscount = e => {
+    const tagName = e.target.tagName;
+    if (tagName === 'BUTTON' || tagName === 'INPUT' || tagName === 'A') {
+      return;
+    }
+    this.props.onViewDiscount(this.props.discount.id);
+  };
+
   render() {
     const props = this.props;
     const discount = props.discount;
     return (
-      <tr key={discount.id}>
+      <tr key={discount.id} onClick={this.handleViewDiscount}>
         <td>{discount.description}</td>
         <td className="text-right">
           <NumberFormat
@@ -51,7 +59,7 @@ export class Discount extends Component {
           />
         </td>
         <td className="text-center">
-          <Button tag={Link} to="/new-discount">
+          <Button tag={Link} to={`/discounts/${discount.id}/edit`}>
             Editar
           </Button>{' '}
           <Button onClick={this.handleDeleteClick} color="danger">

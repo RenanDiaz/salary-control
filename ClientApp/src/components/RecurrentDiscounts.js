@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Table } from 'reactstrap';
-import { Discount } from '../components/Discount';
+import { DiscountRow } from './DiscountRow';
 
 export class RecurrentDiscounts extends Component {
   render() {
@@ -18,12 +18,13 @@ export class RecurrentDiscounts extends Component {
         <tbody>
           {this.props.recurrentDiscounts.map(recurrentDiscount => {
             return (
-              <Discount
+              <DiscountRow
                 key={recurrentDiscount.id}
                 discount={recurrentDiscount}
                 onActiveChange={this.props.onActiveChange}
                 onDeleteDiscount={this.props.onDeleteDiscount}
                 onSelectItem={this.props.onSelectItem}
+                onViewDiscount={this.props.onViewDiscount}
               />
             );
           })}

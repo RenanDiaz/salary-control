@@ -18,7 +18,7 @@ class DiscountForm extends React.Component {
           <label>Rate</label>
           <input
             onChange={this.props.onChange}
-            type="text"
+            type="number"
             className="form-control"
             name="rate"
             value={this.props.formValues.rate}
@@ -28,7 +28,7 @@ class DiscountForm extends React.Component {
           <label>Amount</label>
           <input
             onChange={this.props.onChange}
-            type="text"
+            type="number"
             className="form-control"
             name="amount"
             value={this.props.formValues.amount}
