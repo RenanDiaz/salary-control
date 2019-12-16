@@ -10,14 +10,9 @@ export class DiscountEdit extends Component {
     super(props);
 
     this.state = {
-      loading: false,
+      loading: true,
       error: null,
-      form: {
-        rate: 0,
-        amount: 0,
-        description: '',
-        isActive: true
-      }
+      form: undefined
     };
   }
 
@@ -40,7 +35,7 @@ export class DiscountEdit extends Component {
     this.setState({
       form: {
         ...this.state.form,
-        [e.target.name]: e.target.value
+        [e.target.name]: e.target.type === 'number' ? Number(e.target.value) : e.target.value
       }
     });
   };
