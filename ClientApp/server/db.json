@@ -6437,6 +6437,39 @@
           ],
           "matches": true,
           "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 80,
+          "basePayment": 562.5,
+          "totalHours": 80,
+          "grossPay": 562.5,
+          "totalDiscounts": 80.66,
+          "netPay": 481.84000000000003,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 18.79,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
         }
       ],
       "id": 66
