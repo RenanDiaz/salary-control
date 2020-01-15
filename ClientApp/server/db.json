@@ -6473,6 +6473,55 @@
         }
       ],
       "id": 66
+    },
+    {
+      "month": 1,
+      "year": 2020,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 80,
+          "basePayment": 562.5,
+          "totalHours": 104,
+          "grossPay": 773.44,
+          "totalDiscounts": 179.1,
+          "netPay": 594.34,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            },
+            {
+              "description": "Extras regulares",
+              "hours": 24,
+              "multiplier": 1.25
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 18.79,
+              "description": "ISR"
+            },
+            {
+              "amount": 75.23,
+              "description": "Préstamo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 67
     }
   ],
   "recurrentDiscounts": [
