@@ -6717,7 +6717,44 @@
               "description": "Bono"
             }
           ],
-          "matches": false,
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 80,
+          "basePayment": 625,
+          "totalHours": 80,
+          "grossPay": 625,
+          "totalDiscounts": 148.8,
+          "netPay": 476.2,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 30.29,
+              "description": "ISR"
+            },
+            {
+              "amount": 49.76,
+              "description": "Préstamo"
+            }
+          ],
+          "matches": true,
           "voucher": false
         }
       ],
