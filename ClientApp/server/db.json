@@ -7179,6 +7179,134 @@
         }
       ],
       "id": 73
+    },
+    {
+      "month": 8,
+      "year": 2020,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 80,
+          "basePayment": 625,
+          "totalHours": 80,
+          "grossPay": 625,
+          "totalDiscounts": 223.03,
+          "netPay": 401.97,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 30.29,
+              "description": "ISR"
+            },
+            {
+              "amount": 123.99,
+              "description": "Préstamo"
+            }
+          ],
+          "matches": true,
+          "voucher": false
+        },
+        {
+          "description": "Décimo 8/2020",
+          "grossPay": 420.93,
+          "totalDiscounts": 30.52,
+          "netPay": 390.41,
+          "isSpecial": true,
+          "type": "decimo",
+          "months": 5,
+          "discounts": [
+            {
+              "rate": 0.0725,
+              "description": "Seguro social"
+            }
+          ],
+          "previousPayments": [
+            {
+              "description": "Segunda quincena 4/2020",
+              "amount": 625
+            },
+            {
+              "description": "Vacaciones 2020 5/2020",
+              "amount": 1301.14
+            },
+            {
+              "description": "Primera quincena 6/2020",
+              "amount": 625
+            },
+            {
+              "description": "Segunda quincena 6/2020",
+              "amount": 625
+            },
+            {
+              "description": "Primera quincena 7/2020",
+              "amount": 625
+            },
+            {
+              "description": "Segunda quincena 7/2020",
+              "amount": 625
+            },
+            {
+              "description": "Primera quincena 8/2020",
+              "amount": 625
+            }
+          ],
+          "matches": true,
+          "voucher": false
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 80,
+          "basePayment": 625,
+          "totalHours": 80,
+          "grossPay": 625,
+          "totalDiscounts": 223.03,
+          "netPay": 401.97,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 30.29,
+              "description": "ISR"
+            },
+            {
+              "amount": 123.99,
+              "description": "Préstamo"
+            }
+          ],
+          "matches": true,
+          "voucher": false
+        }
+      ],
+      "id": 74
     }
   ],
   "recurrentDiscounts": [
