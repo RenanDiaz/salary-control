@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Row, Col, Button } from 'reactstrap';
+import { MonthlyReport } from '../components/MonthlyReport';
+import { YearlyReport } from '../components/YearlyReport';
+import { TypeReport } from '../components/TypeReport';
 import CoincidenceReport from '../components/CoincidenceReport';
 import VoucherReport from '../components/VoucherReport';
 
@@ -8,11 +11,11 @@ export class Reports extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedReport: undefined
+      selectedReport: undefined,
     };
   }
 
-  changeSelectionTo = selection => {
+  changeSelectionTo = (selection) => {
     this.setState({ selectedReport: selection });
   };
 
@@ -20,10 +23,13 @@ export class Reports extends Component {
     let report;
     switch (this.state.selectedReport) {
       case 'byMonth':
+        report = <MonthlyReport />;
         break;
       case 'byYear':
+        report = <YearlyReport />
         break;
       case 'byType':
+        report = <TypeReport />
         break;
       case 'coincidenceState':
         report = <CoincidenceReport />;
@@ -78,6 +84,6 @@ Reports.propTypes = {
     'byYear',
     'byType',
     'coincidenceState',
-    'voucherState'
-  ])
+    'voucherState',
+  ]),
 };
