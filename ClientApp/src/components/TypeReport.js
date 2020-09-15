@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import NumberFormat from 'react-number-format';
+import { Chart } from 'react-google-charts';
 import { Row, Col, FormGroup, Label, Input, Table } from 'reactstrap';
 import api from '../api';
 import PageLoading from './PageLoading';
 import PageError from './PageError';
-import NumberFormat from 'react-number-format';
 
 export class TypeReport extends Component {
   constructor(props) {
@@ -93,13 +94,18 @@ export class TypeReport extends Component {
     );
   };
 
+  formatData = (payments) => {
+    const response = [];
+    response.push(['Type', 'Base', 'Gross', 'Net', 'Discounts']);
+    payments.forEach((payment) => {
+      const { type, basePayment, grossPay, netPay, totalDiscounts } = payment;
+      response.push([type, basePayment, grossPay, netPay, totalDiscounts]);
+    });
+    return response;
+  };
+
   render() {
-    const {
-      loading,
-      error,
-      payments,
-      groupRegularPayments,
-    } = this.state;
+    const { loading, error, payments, groupRegularPayments } = this.state;
     if (loading && !this.monthlyPayments) {
       return <PageLoading />;
     }
@@ -108,7 +114,7 @@ export class TypeReport extends Component {
       return <PageError error={error} />;
     }
 
-    const monthlyPayments = [];
+    const paymentsByType = [];
     payments.forEach((selectedPayment) => {
       const { description, basePayment: base, grossPay, netPay, totalDiscounts } = selectedPayment;
       const splitted = description.split(' ');
@@ -124,13 +130,11 @@ export class TypeReport extends Component {
         netPay,
         totalDiscounts,
       };
-      const index = monthlyPayments.findIndex(
-        (payment) => payment.type === type
-      );
+      const index = paymentsByType.findIndex((payment) => payment.type === type);
       if (index < 0) {
-        monthlyPayments.push(newPayment);
+        paymentsByType.push(newPayment);
       } else {
-        const prevPayment = monthlyPayments[index];
+        const prevPayment = paymentsByType[index];
         const payment = {
           type,
           basePayment: prevPayment.basePayment + basePayment,
@@ -138,9 +142,11 @@ export class TypeReport extends Component {
           netPay: prevPayment.netPay + netPay,
           totalDiscounts: prevPayment.totalDiscounts + totalDiscounts,
         };
-        monthlyPayments[index] = payment;
+        paymentsByType[index] = payment;
       }
     });
+    const data = this.formatData(paymentsByType);
+    console.log(data);
 
     return (
       <Row>
@@ -163,6 +169,23 @@ export class TypeReport extends Component {
           </Row>
           <Row>
             <Col>
+              <Chart
+                chartType="Bar"
+                loader={<div>Loading Chart</div>}
+                data={data}
+                options={{
+                  hAxis: {
+                    title: 'Type',
+                  },
+                  vAxis: {
+                    title: '$',
+                  },
+                }}
+              />
+            </Col>
+          </Row>
+          <Row>
+            <Col>
               <Table>
                 <thead>
                   <tr className="text-center">
@@ -174,7 +197,7 @@ export class TypeReport extends Component {
                   </tr>
                 </thead>
                 <tbody>
-                  {monthlyPayments.map((payment, index) => {
+                  {paymentsByType.map((payment, index) => {
                     return this.tableBody(payment, index);
                   })}
                 </tbody>
