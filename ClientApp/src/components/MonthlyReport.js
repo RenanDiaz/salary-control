@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { Row, Col, FormGroup, Label, Input, Table } from 'reactstrap';
+import NumberFormat from 'react-number-format';
+import { Chart } from 'react-google-charts';
 import api from '../api';
 import PageLoading from './PageLoading';
 import PageError from './PageError';
-import NumberFormat from 'react-number-format';
 
 export class MonthlyReport extends Component {
   constructor(props) {
@@ -101,6 +102,17 @@ export class MonthlyReport extends Component {
     );
   };
 
+  formatData = (payments) => {
+    const response = [];
+    response.push(['Month', 'Base', 'Gross', 'Net', 'Discounts']);
+    payments.forEach((payment) => {
+      const { year, month, basePayment, grossPay, netPay, totalDiscounts } = payment;
+      const date = new Date(year, month);
+      response.push([date, basePayment, grossPay, netPay, totalDiscounts]);
+    });
+    return response;
+  };
+
   render() {
     const {
       loading,
@@ -161,6 +173,7 @@ export class MonthlyReport extends Component {
         monthlyPayments[index] = payment;
       }
     });
+    const data = this.formatData(monthlyPayments);
 
     return (
       <Row>
@@ -221,6 +234,23 @@ export class MonthlyReport extends Component {
                   Descendente
                 </Label>
               </FormGroup>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <Chart
+                chartType="LineChart"
+                loader={<div>Loading Chart</div>}
+                data={data}
+                options={{
+                  hAxis: {
+                    title: 'Month',
+                  },
+                  vAxis: {
+                    title: '$',
+                  },
+                }}
+              />
             </Col>
           </Row>
           <Row>

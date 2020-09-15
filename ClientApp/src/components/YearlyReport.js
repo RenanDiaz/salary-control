@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import NumberFormat from 'react-number-format';
+import { Chart } from 'react-google-charts';
 import { Row, Col, FormGroup, Label, Input, Table } from 'reactstrap';
 import api from '../api';
 import PageLoading from './PageLoading';
 import PageError from './PageError';
-import NumberFormat from 'react-number-format';
 
 export class YearlyReport extends Component {
   constructor(props) {
@@ -100,6 +101,17 @@ export class YearlyReport extends Component {
     );
   };
 
+  formatData = (payments) => {
+    const response = [];
+    response.push(['Year', 'Base', 'Gross', 'Net', 'Discounts']);
+    payments.forEach((payment) => {
+      const { year, basePayment, grossPay, netPay, totalDiscounts } = payment;
+      const date = new Date(year);
+      response.push([date, basePayment, grossPay, netPay, totalDiscounts]);
+    });
+    return response;
+  };
+
   render() {
     const {
       loading,
@@ -130,7 +142,7 @@ export class YearlyReport extends Component {
       selectedPayments = selectedPayments.reverse();
     }
 
-    const monthlyPayments = [];
+    const yearlyPayments = [];
     selectedPayments.forEach((selectedPayment) => {
       const { year, basePayment: base, grossPay, netPay, totalDiscounts } = selectedPayment;
       const basePayment = base ? base : 0;
@@ -141,11 +153,11 @@ export class YearlyReport extends Component {
         netPay,
         totalDiscounts,
       };
-      const index = monthlyPayments.findIndex((payment) => payment.year === year);
+      const index = yearlyPayments.findIndex((payment) => payment.year === year);
       if (index < 0) {
-        monthlyPayments.push(newPayment);
+        yearlyPayments.push(newPayment);
       } else {
-        const prevPayment = monthlyPayments[index];
+        const prevPayment = yearlyPayments[index];
         const payment = {
           year,
           basePayment: prevPayment.basePayment + basePayment,
@@ -153,9 +165,11 @@ export class YearlyReport extends Component {
           netPay: prevPayment.netPay + netPay,
           totalDiscounts: prevPayment.totalDiscounts + totalDiscounts,
         };
-        monthlyPayments[index] = payment;
+        yearlyPayments[index] = payment;
       }
     });
+
+    const data = this.formatData(yearlyPayments);
 
     return (
       <Row>
@@ -220,6 +234,23 @@ export class YearlyReport extends Component {
           </Row>
           <Row>
             <Col>
+              <Chart
+                chartType="LineChart"
+                loader={<div>Loading Chart</div>}
+                data={data}
+                options={{
+                  hAxis: {
+                    title: 'Year',
+                  },
+                  vAxis: {
+                    title: '$',
+                  },
+                }}
+              />
+            </Col>
+          </Row>
+          <Row>
+            <Col>
               <Table>
                 <thead>
                   <tr className="text-center">
@@ -231,7 +262,7 @@ export class YearlyReport extends Component {
                   </tr>
                 </thead>
                 <tbody>
-                  {monthlyPayments.map((payment, index) => {
+                  {yearlyPayments.map((payment, index) => {
                     return this.tableBody(payment, index);
                   })}
                 </tbody>
