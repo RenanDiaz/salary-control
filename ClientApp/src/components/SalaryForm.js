@@ -1,4 +1,5 @@
 import React from 'react';
+import NumberFormat from 'react-number-format';
 import DatePicker from 'react-datepicker';
 import {
   Form,
@@ -11,10 +12,35 @@ import {
   CardBody,
   CardTitle,
   Row,
-  Col
+  Col,
 } from 'reactstrap';
 import 'react-datepicker/dist/react-datepicker.css';
 import './styles/SalaryForm.css';
+
+function NumberPropertyInput(props) {
+  const { onPropertyChange, defaultValue, name, property, index, decimalScale } = props;
+  const onValueChange = ({ formattedValue, value, floatValue }) => {
+    const object = {
+      type: 'number',
+      value: floatValue,
+      property,
+      index,
+    };
+    onPropertyChange(object);
+  };
+  return (
+    <NumberFormat
+      customInput={Input}
+      onValueChange={onValueChange}
+      name={name}
+      value={defaultValue}
+      data-property={property}
+      data-index={index}
+      thousandSeparator
+      decimalScale={decimalScale}
+    />
+  );
+}
 
 class SalaryForm extends React.Component {
   render() {
@@ -146,13 +172,13 @@ class SalaryForm extends React.Component {
                   </FormGroup>
                   <FormGroup>
                     <Label>Porcentaje</Label>
-                    <Input
-                      onChange={this.props.onPropertyChange}
-                      type="number"
+                    <NumberPropertyInput
+                      onPropertyChange={this.props.handleNumberPropertyChange}
                       name="rate"
-                      value={discount.rate}
-                      data-property="discounts"
-                      data-index={index}
+                      defaultValue={discount.rate}
+                      property="discounts"
+                      index={index}
+                      decimalScale={4}
                     />
                   </FormGroup>
                   <FormGroup>

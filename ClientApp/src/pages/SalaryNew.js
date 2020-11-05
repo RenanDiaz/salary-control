@@ -27,8 +27,8 @@ export class SalaryNew extends Component {
         hours: [{ description: 'Regulares', hours: 80, multiplier: 1 }],
         discounts: [],
         matches: true,
-        voucher: true
-      }
+        voucher: true,
+      },
     };
 
     this.data = [];
@@ -50,10 +50,10 @@ export class SalaryNew extends Component {
           : {
               month: currentDate.getMonth(),
               year: currentDate.getFullYear(),
-              payments: []
+              payments: [],
             };
       this.discounts = await api.recurrentDiscounts.list();
-      const discounts = this.discounts.filter(discount => {
+      const discounts = this.discounts.filter((discount) => {
         const isActive = discount.isActive;
         discount.isActive = undefined;
         discount.id = undefined;
@@ -77,17 +77,17 @@ export class SalaryNew extends Component {
     }
   };
 
-  handleDateChange = e => {
+  handleDateChange = (e) => {
     const month = e.getMonth() + 1;
     const year = e.getFullYear();
-    api.monthlyPayments.readByDate(month, year).then(response => {
+    api.monthlyPayments.readByDate(month, year).then((response) => {
       const data =
         response.length > 0
           ? response[0]
           : {
               month,
               year,
-              payments: []
+              payments: [],
             };
       const form = this.state.form;
       for (let i = data.payments.length - 1; i >= 0; i--) {
@@ -103,7 +103,7 @@ export class SalaryNew extends Component {
     });
   };
 
-  handleChange = e => {
+  handleChange = (e) => {
     const form = {
       ...this.state.form,
       [e.target.name]:
@@ -111,13 +111,13 @@ export class SalaryNew extends Component {
           ? Number(e.target.value)
           : e.target.type === 'checkbox'
           ? e.target.checked
-          : e.target.value
+          : e.target.value,
     };
     calculateTotals(form);
     this.setState({ form });
   };
 
-  handlePropertyChange = e => {
+  handlePropertyChange = (e) => {
     const property = e.target.getAttribute('data-property');
     const index = e.target.getAttribute('data-index');
     const form = this.state.form;
@@ -127,7 +127,16 @@ export class SalaryNew extends Component {
     this.setState({ form });
   };
 
-  handleAddClick = e => {
+  handleNumberPropertyChange = (e) => {
+    const { property, index, name, type, value: newValue } = e;
+    const form = this.state.form;
+    const value = form[property][index];
+    value[name] = type === 'number' ? Number(newValue) : newValue;
+    calculateTotals(form);
+    this.setState({ form });
+  };
+
+  handleAddClick = (e) => {
     e.preventDefault();
     const propertyName = e.target.getAttribute('data-property');
     const form = this.state.form;
@@ -146,7 +155,7 @@ export class SalaryNew extends Component {
     this.setState({ form });
   };
 
-  handleRemoveClick = e => {
+  handleRemoveClick = (e) => {
     e.preventDefault();
     const propertyName = e.target.getAttribute('data-property');
     const index = e.target.getAttribute('data-index');
@@ -157,7 +166,7 @@ export class SalaryNew extends Component {
     this.setState({ form: form });
   };
 
-  handleSubmit = async e => {
+  handleSubmit = async (e) => {
     e.preventDefault();
     this.setState({ loading: true, error: null });
 
@@ -191,7 +200,7 @@ export class SalaryNew extends Component {
     }
 
     return (
-      <React.Fragment>
+      <>
         <Row className="mt-1">
           <Col>
             <h3>Nuevo pago</h3>
@@ -205,6 +214,7 @@ export class SalaryNew extends Component {
             <SalaryForm
               onChange={this.handleChange}
               onPropertyChange={this.handlePropertyChange}
+              handleNumberPropertyChange={this.handleNumberPropertyChange}
               onDateChange={this.handleDateChange}
               monthData={this.state.data}
               formValues={this.state.form}
@@ -215,7 +225,7 @@ export class SalaryNew extends Component {
             />
           </Col>
         </Row>
-      </React.Fragment>
+      </>
     );
   }
 }
