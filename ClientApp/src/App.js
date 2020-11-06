@@ -21,7 +21,7 @@ import {
   faAngleDoubleLeft,
   faCheckCircle,
   faTimesCircle,
-  faColumns
+  faColumns,
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(faAdjust);

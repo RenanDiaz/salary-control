@@ -1,4 +1,4 @@
-export function roundCurrency(number) {
+function roundCurrency(number) {
   return round(number, 2);
 }
 

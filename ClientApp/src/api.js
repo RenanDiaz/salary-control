@@ -3,7 +3,7 @@ const BASE_URL = 'http://localhost:3001';
 async function callApi(endpoint, options = {}) {
   options.headers = {
     'Content-Type': 'application/json',
-    Accept: 'application/json'
+    Accept: 'application/json',
   };
 
   const url = BASE_URL + endpoint;
@@ -37,7 +37,7 @@ const api = {
     create(payment) {
       return callApi(`/monthlyPayments`, {
         method: 'POST',
-        body: JSON.stringify(payment)
+        body: JSON.stringify(payment),
       });
     },
     async read(paymentId) {
@@ -50,14 +50,14 @@ const api = {
     update(paymentId, updates) {
       return callApi(`/monthlyPayments/${paymentId}`, {
         method: 'PUT',
-        body: JSON.stringify(updates)
+        body: JSON.stringify(updates),
       });
     },
     remove(paymentId) {
       return callApi(`/monthlyPayments/${paymentId}`, {
-        method: 'DELETE'
+        method: 'DELETE',
       });
-    }
+    },
   },
   recurrentDiscounts: {
     list() {
@@ -66,7 +66,7 @@ const api = {
     create(discount) {
       return callApi(`/recurrentDiscounts`, {
         method: 'POST',
-        body: JSON.stringify(discount)
+        body: JSON.stringify(discount),
       });
     },
     read(discountId) {
@@ -75,14 +75,14 @@ const api = {
     update(discountId, updates) {
       return callApi(`/recurrentDiscounts/${discountId}`, {
         method: 'PUT',
-        body: JSON.stringify(updates)
+        body: JSON.stringify(updates),
       });
     },
     remove(discountId) {
       return callApi(`/recurrentDiscounts/${discountId}`, {
-        method: 'DELETE'
+        method: 'DELETE',
       });
-    }
+    },
   },
   configuration: {
     read() {
@@ -91,10 +91,10 @@ const api = {
     update(updates) {
       return callApi('/configuration', {
         method: 'PUT',
-        body: JSON.stringify(updates)
+        body: JSON.stringify(updates),
       });
-    }
-  }
+    },
+  },
 };
 
 export default api;

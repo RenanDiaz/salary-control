@@ -1,0 +1,57 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body.dark-mode {
+  background-color: #212529;
+  color: white;
+}
+
+@keyframes lds-grid {
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.dark-mode .modal-content {
+  background-color: #212529;
+}
+
+.dark-mode td,
+.dark-mode th {
+  color: white;
+}
+
+.dark-mode .card {
+  background-color: transparent;
+  border: 1px solid #dee2e6;
+}
+
+.dark-mode hr {
+  border-top: 1px solid #dee2e6;
+}
+
+.dark-mode .pagination > .page-item > .page-link {
+  background-color: #343a40;
+}
+
+.dark-mode .pagination > .page-item:not(.disabled) > .page-link {
+  color: white;
+}
+
+.dark-mode .pagination > .page-item.active > .page-link {
+  color: white;
+  background-color: #6c757d;
+  border-color: #dee2e6;
+}
