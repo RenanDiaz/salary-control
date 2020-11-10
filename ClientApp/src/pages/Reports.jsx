@@ -5,14 +5,32 @@ import { YearlyReport } from '../components/YearlyReport';
 import { TypeReport } from '../components/TypeReport';
 import { CoincidenceReport } from '../components/CoincidenceReport';
 import { VoucherReport } from '../components/VoucherReport';
+import { Test } from '../components/Test';
+import { Test2 } from '../components/Test2';
+import { Test3 } from '../components/Test3';
+import { ws } from '../utils/WSClient';
 
 export class Reports extends Component {
   constructor(props) {
     super(props);
     this.state = {
       selectedReport: undefined,
+      wsId: undefined,
     };
   }
+
+  componentDidMount() {
+    const wsId = ws.subscribe(this.log);
+    this.setState({ wsId });
+  }
+
+  log = () => {
+    console.log('wtf');
+  };
+
+  load = () => {
+    ws.sendMessage('magic!');
+  };
 
   changeSelectionTo = (selection) => {
     this.setState({ selectedReport: selection });
@@ -70,6 +88,13 @@ export class Reports extends Component {
               </Col>
             </Row>
             {report}
+          </Col>
+        </Row>
+        <Test2 />
+        <Test3 />
+        <Row className="justify-content-center mt-3">
+          <Col xs="auto">
+            <Button onClick={this.load}>Send</Button>
           </Col>
         </Row>
       </>

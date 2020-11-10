@@ -24,6 +24,27 @@ body.dark-mode {
   }
 }
 
+@keyframes slide-down {
+  0%,
+  25% {
+    transform: translateY(-99%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-right {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
 .dark-mode .modal-content {
   background-color: #212529;
 }
