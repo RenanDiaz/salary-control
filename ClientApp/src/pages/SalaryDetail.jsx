@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { MonthlyPayment } from '../components/MonthlyPayment';
 import { PageLoading } from '../components/PageLoading';
 import { PageError } from '../components/PageError';
-import api from '../api';
+import api from '../utils/api';
 
 export class SalaryDetail extends Component {
   state = {

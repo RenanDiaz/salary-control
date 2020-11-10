@@ -5,8 +5,8 @@ import { PageLoading } from '../components/PageLoading';
 import { PageError } from '../components/PageError';
 import { SalaryFormSpecial } from '../components/SalaryFormSpecial';
 import { SalaryFormPreview } from '../components/SalaryFormPreview';
-import { calculateTotalsSpecial } from '../Helpers';
-import api from '../api';
+import { calculateTotalsSpecial } from '../utils/Helpers';
+import api from '../utils/api';
 
 const FormContainer = styled(Col)`
   max-height: calc(100vh - 102px);

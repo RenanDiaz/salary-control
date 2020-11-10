@@ -5,7 +5,7 @@ import { RecurrentDiscounts } from '../components/RecurrentDiscounts';
 import { DeleteDiscountModal } from '../components/DeleteDiscountModal';
 import { PageLoading } from '../components/PageLoading';
 import { PageError } from '../components/PageError';
-import api from '../api';
+import api from '../utils/api';
 
 export class SalaryDiscounts extends Component {
   constructor(props) {

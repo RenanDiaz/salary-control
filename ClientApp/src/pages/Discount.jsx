@@ -3,7 +3,7 @@ import NumberFormat from 'react-number-format';
 import { Link } from 'react-router-dom';
 import { Button, Col, Row } from 'reactstrap';
 import { PageLoading } from '../components/PageLoading';
-import api from '../api';
+import api from '../utils/api';
 
 export class Discount extends Component {
   constructor(props) {

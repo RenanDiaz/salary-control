@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container } from 'reactstrap';
 import { NavMenu } from '../components/NavMenu';
-import api from '../api';
+import api from '../utils/api';
 
 export class Layout extends Component {
   static displayName = Layout.name;
@@ -44,7 +44,7 @@ export class Layout extends Component {
       const response = await api.configuration.read();
       const { darkMode } = response;
       this.setState({ darkMode });
-    } catch (error) {
+    } catch {
       this.setState({ darkMode: false });
     }
   };

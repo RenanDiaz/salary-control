@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import NumberFormat from 'react-number-format';
 import { Chart } from 'react-google-charts';
 import { Row, Col, FormGroup, Label, Input, Table } from 'reactstrap';
-import api from '../api';
+import api from '../utils/api';
 import { PageLoading } from './PageLoading';
 import { PageError } from './PageError';
 

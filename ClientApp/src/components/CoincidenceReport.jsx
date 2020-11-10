@@ -3,7 +3,7 @@ import NumberFormat from 'react-number-format';
 import { Col, FormGroup, Input, Label, Row, Table } from 'reactstrap';
 import { PageLoading } from './PageLoading';
 import { PageError } from './PageError';
-import api from '../api';
+import api from '../utils/api';
 
 export class CoincidenceReport extends Component {
   constructor(props) {

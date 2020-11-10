@@ -3,7 +3,7 @@ import { Col, Row } from 'reactstrap';
 import { DiscountForm } from '../components/DiscountForm';
 import { PageLoading } from '../components/PageLoading';
 import { SalaryFormPreview } from '../components/SalaryFormPreview';
-import api from '../api';
+import api from '../utils/api';
 
 export class DiscountNew extends Component {
   constructor(props) {

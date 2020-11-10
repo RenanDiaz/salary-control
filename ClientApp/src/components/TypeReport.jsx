@@ -4,7 +4,7 @@ import { Col, FormGroup, Input, Label, Row, Table } from 'reactstrap';
 import { Chart } from 'react-google-charts';
 import { PageLoading } from './PageLoading';
 import { PageError } from './PageError';
-import api from '../api';
+import api from '../utils/api';
 
 export class TypeReport extends Component {
   constructor(props) {

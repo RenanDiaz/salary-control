@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { MonthlyPayments } from '../components/MonthlyPayments';
 import { PageLoading } from '../components/PageLoading';
 import { PageError } from '../components/PageError';
-import api from '../api';
+import api from '../utils/api';
 
 export class Home extends Component {
   constructor(props) {

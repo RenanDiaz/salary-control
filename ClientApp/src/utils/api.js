@@ -19,23 +19,23 @@ async function callApi(endpoint, options = {}) {
 
 const api = {
   monthlyPayments: {
-    list(page) {
+    async list(page) {
       if (page) {
         let limit = 12;
-        return callApi(`/monthlyPayments?_page=${page}&_limit=${limit}&_sort=id&_order=desc`);
+        return await callApi(`/monthlyPayments?_page=${page}&_limit=${limit}&_sort=id&_order=desc`);
       }
-      return callApi('/monthlyPayments');
+      return await callApi('/monthlyPayments');
     },
     async last() {
       const emptyResponse = await callApi('/monthlyPayments?_start=0&_end=0');
       const last = emptyResponse.totalCount;
-      return callApi(`/monthlyPayments/${last}`);
+      return await callApi(`/monthlyPayments/${last}`);
     },
-    readByDate(month, year) {
-      return callApi(`/monthlyPayments?month=${month}&year=${year}`);
+    async readByDate(month, year) {
+      return await callApi(`/monthlyPayments?month=${month}&year=${year}`);
     },
-    create(payment) {
-      return callApi(`/monthlyPayments`, {
+    async create(payment) {
+      return await callApi(`/monthlyPayments`, {
         method: 'POST',
         body: JSON.stringify(payment),
       });
@@ -47,49 +47,49 @@ const api = {
       response.last = last;
       return response;
     },
-    update(paymentId, updates) {
-      return callApi(`/monthlyPayments/${paymentId}`, {
+    async update(paymentId, updates) {
+      return await callApi(`/monthlyPayments/${paymentId}`, {
         method: 'PUT',
         body: JSON.stringify(updates),
       });
     },
-    remove(paymentId) {
-      return callApi(`/monthlyPayments/${paymentId}`, {
+    async remove(paymentId) {
+      return await callApi(`/monthlyPayments/${paymentId}`, {
         method: 'DELETE',
       });
     },
   },
   recurrentDiscounts: {
-    list() {
-      return callApi('/recurrentDiscounts');
+    async list() {
+      return await callApi('/recurrentDiscounts');
     },
-    create(discount) {
-      return callApi(`/recurrentDiscounts`, {
+    async create(discount) {
+      return await callApi(`/recurrentDiscounts`, {
         method: 'POST',
         body: JSON.stringify(discount),
       });
     },
-    read(discountId) {
-      return callApi(`/recurrentDiscounts/${discountId}`);
+    async read(discountId) {
+      return await callApi(`/recurrentDiscounts/${discountId}`);
     },
-    update(discountId, updates) {
-      return callApi(`/recurrentDiscounts/${discountId}`, {
+    async update(discountId, updates) {
+      return await callApi(`/recurrentDiscounts/${discountId}`, {
         method: 'PUT',
         body: JSON.stringify(updates),
       });
     },
-    remove(discountId) {
-      return callApi(`/recurrentDiscounts/${discountId}`, {
+    async remove(discountId) {
+      return await callApi(`/recurrentDiscounts/${discountId}`, {
         method: 'DELETE',
       });
     },
   },
   configuration: {
-    read() {
-      return callApi('/configuration');
+    async read() {
+      return await callApi('/configuration');
     },
-    update(updates) {
-      return callApi('/configuration', {
+    async update(updates) {
+      return await callApi('/configuration', {
         method: 'PUT',
         body: JSON.stringify(updates),
       });

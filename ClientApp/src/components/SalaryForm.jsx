@@ -24,7 +24,7 @@ const DatePickerFormGroup = styled(FormGroup)`
 
 function NumberPropertyInput(props) {
   const { onPropertyChange, defaultValue, name, property, index, decimalScale } = props;
-  const onValueChange = ({ formattedValue, value, floatValue }) => {
+  const onValueChange = ({ floatValue }) => {
     const object = {
       type: 'number',
       value: floatValue,

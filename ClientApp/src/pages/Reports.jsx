@@ -48,7 +48,7 @@ export class Reports extends Component {
         </Row>
         <Row>
           <Col>
-            <Row className="justify-content-center">
+            <Row className="justify-content-center mb-3">
               <Col xs="auto">
                 <Button onClick={() => this.changeSelectionTo('byMonth')}>Por mes</Button>
               </Col>
