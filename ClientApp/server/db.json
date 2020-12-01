@@ -6897,6 +6897,64 @@
       "year": 2020,
       "payments": [
         {
+          "description": "Primera quincena",
+          "regularHours": 80,
+          "basePayment": 625,
+          "totalHours": 0,
+          "grossPay": 0,
+          "totalDiscounts": 0,
+          "netPay": 0,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 0,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Segunda quincena",
+          "regularHours": 80,
+          "basePayment": 625,
+          "totalHours": 0,
+          "grossPay": 0,
+          "totalDiscounts": 0,
+          "netPay": 0,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 0,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
           "description": "Vacaciones 2020",
           "grossPay": 1301.14,
           "totalDiscounts": 451.67999999999995,
@@ -7466,20 +7524,27 @@
           ],
           "matches": true,
           "voucher": true
-        },
+        }
+      ],
+      "id": 76
+    },
+    {
+      "month": 11,
+      "year": 2020,
+      "payments": [
         {
           "description": "Primera quincena",
           "regularHours": 80,
           "basePayment": 625,
-          "totalHours": 0,
-          "grossPay": 0,
-          "totalDiscounts": 0,
-          "netPay": 0,
+          "totalHours": 80,
+          "grossPay": 625,
+          "totalDiscounts": 223.03,
+          "netPay": 401.97,
           "isSpecial": false,
           "hours": [
             {
               "description": "Regulares",
-              "hours": 0,
+              "hours": 80,
               "multiplier": 1
             }
           ],
@@ -7491,6 +7556,14 @@
             {
               "rate": 0.0125,
               "description": "Seguro educativo"
+            },
+            {
+              "amount": 30.29,
+              "description": "ISR"
+            },
+            {
+              "amount": 123.99,
+              "description": "Préstamo"
             }
           ],
           "matches": true,
@@ -7500,15 +7573,15 @@
           "description": "Segunda quincena",
           "regularHours": 80,
           "basePayment": 625,
-          "totalHours": 0,
-          "grossPay": 0,
-          "totalDiscounts": 0,
-          "netPay": 0,
+          "totalHours": 80,
+          "grossPay": 625,
+          "totalDiscounts": 223.03,
+          "netPay": 401.97,
           "isSpecial": false,
           "hours": [
             {
               "description": "Regulares",
-              "hours": 0,
+              "hours": 80,
               "multiplier": 1
             }
           ],
@@ -7520,13 +7593,21 @@
             {
               "rate": 0.0125,
               "description": "Seguro educativo"
+            },
+            {
+              "amount": 30.29,
+              "description": "ISR"
+            },
+            {
+              "amount": 123.99,
+              "description": "Préstamo"
             }
           ],
           "matches": true,
           "voucher": true
         }
       ],
-      "id": 76
+      "id": 77
     }
   ],
   "recurrentDiscounts": [
