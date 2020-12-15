@@ -7608,6 +7608,97 @@
         }
       ],
       "id": 77
+    },
+    {
+      "month": 12,
+      "year": 2020,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 80,
+          "basePayment": 625,
+          "totalHours": 80,
+          "grossPay": 625,
+          "totalDiscounts": 99.04,
+          "netPay": 525.96,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 30.29,
+              "description": "ISR"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        },
+        {
+          "description": "Décimo 12/2020",
+          "grossPay": 416.67,
+          "totalDiscounts": 30.21,
+          "netPay": 386.46000000000004,
+          "isSpecial": true,
+          "type": "decimo",
+          "months": 5,
+          "discounts": [
+            {
+              "rate": 0.0725,
+              "description": "Seguro social"
+            }
+          ],
+          "previousPayments": [
+            {
+              "description": "Segunda quincena 8/2020",
+              "amount": 625
+            },
+            {
+              "description": "Primera quincena 9/2020",
+              "amount": 625
+            },
+            {
+              "description": "Segunda quincena 9/2020",
+              "amount": 625
+            },
+            {
+              "description": "Primera quincena 10/2020",
+              "amount": 625
+            },
+            {
+              "description": "Segunda quincena 10/2020",
+              "amount": 625
+            },
+            {
+              "description": "Primera quincena 11/2020",
+              "amount": 625
+            },
+            {
+              "description": "Segunda quincena 11/2020",
+              "amount": 625
+            },
+            {
+              "description": "Primera quincena 12/2020",
+              "amount": 625
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 78
     }
   ],
   "recurrentDiscounts": [
