@@ -7813,6 +7813,50 @@
         }
       ],
       "id": 79
+    },
+    {
+      "month": 2,
+      "year": 2021,
+      "payments": [
+        {
+          "description": "Primera quincena",
+          "regularHours": 80,
+          "basePayment": 625,
+          "totalHours": 80,
+          "grossPay": 625,
+          "totalDiscounts": 223.03,
+          "netPay": 401.97,
+          "isSpecial": false,
+          "hours": [
+            {
+              "description": "Regulares",
+              "hours": 80,
+              "multiplier": 1
+            }
+          ],
+          "discounts": [
+            {
+              "rate": 0.0975,
+              "description": "Seguro social"
+            },
+            {
+              "rate": 0.0125,
+              "description": "Seguro educativo"
+            },
+            {
+              "amount": 30.29,
+              "description": "ISR"
+            },
+            {
+              "amount": 123.99,
+              "description": "Préstamo"
+            }
+          ],
+          "matches": true,
+          "voucher": true
+        }
+      ],
+      "id": 80
     }
   ],
   "recurrentDiscounts": [
